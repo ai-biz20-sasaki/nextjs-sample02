@@ -1,5 +1,5 @@
 import { ComponentMeta, Story } from '@storybook/react'
-import { StyledButton, StyledButtonProps } from '../../components/StyledButton'
+import { StyledButton, StyledButtonProps } from '../../components/StyledButton1'
 
 // ファイル内のStoryの設定（メタデータオブジェクト）
 export default {
