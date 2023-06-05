@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 import Link from "next/link";
+import Input from "../../Input/index"
 
 const H1 = styled.h1`
   color: red;
@@ -63,6 +64,10 @@ const Home: NextPage = () => {
               <a>テーマを使う例</a>
             </Link>
           </Links>
+        </div>
+        <div>
+          <Input label={"テスト"}/>
+          <p>↑はテスト用Inputコンポーネント</p>
         </div>
       </main>
     </div>
