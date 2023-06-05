@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import styled from "styled-components";
 import Link from "next/link";
 import Input from "../../Input/index"
+import DelayInput from "../../DelayInput/index"
 
 const H1 = styled.h1`
   color: red;
@@ -68,6 +69,11 @@ const Home: NextPage = () => {
         <div>
           <Input label={"テスト"}/>
           <p>↑はテスト用Inputコンポーネント</p>
+        </div>
+        <div>
+          {/* TODO:ここの処理はこれでよい？ */}
+          <DelayInput onChange={ (event) => {event.target.value}}/>
+          <p>↑はテスト用DelayInputInputコンポーネント</p>
         </div>
       </main>
     </div>
