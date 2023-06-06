@@ -15,7 +15,7 @@ const BaseLink = (props: BaseLinkProps) => {
   const { className, children, ...rest } = props
   return (
     <Link {...rest}>
-      <a className={className}>{children}</a>
+      <p className={className}>{children}</p>
     </Link>
   )
 }

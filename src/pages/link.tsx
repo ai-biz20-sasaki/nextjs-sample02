@@ -41,17 +41,17 @@ function LinkSample() {
   return (
     <div style={{display: 'grid', gridTemplateColumns: '1fr', gap: '12px'}}>
       <Link href="/ssg">
-        <a>Go TO SSG</a>
+        Go TO SSG
       </Link>
       <Link href="/ssg?keyword=next">
-        <a>GO TO SSG with keyword &quot;next&quot;</a>
+        GO TO SSG with keyword &quot;next&quot;
       </Link>
       <Link
         href={{
           pathname: '/ssg',
           query: { keyword: 'hello' },
         }}>
-        <a>GO TO SSG with keyword &quot;hello&quot;</a>
+        GO TO SSG with keyword &quot;hello&quot;
       </Link>
       <Link href="/ssg">
         {/* aの代わりにbuttonを使うと、onClickが呼ばれたタイミングで遷移します */}

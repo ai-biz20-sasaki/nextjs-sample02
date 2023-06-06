@@ -44,25 +44,25 @@ const Home: NextPage = () => {
           <span>以下styled-componentの各サンプルコードのページへのリンクになります</span>
           <Links>
             <Link href="/badge">
-              <a>Badgeの例</a>
+              Badgeの例
             </Link>
             <Link href="/props-sample">
-              <a>propsを使う例</a>
+              propsを使う例
             </Link>
             <Link href="/mixin-sample">
-              <a>mixinを使う例</a>
+              mixinを使う例
             </Link>
             <Link href="/inheritance-sample">
-              <a>継承を使う例</a>
+              継承を使う例
             </Link>
             <Link href="/as-sample">
-              <a>スタイルを他のコンポーネントで使用する例</a>
+              スタイルを他のコンポーネントで使用する例
             </Link>
             <Link href="/styled-link-sample">
-              <a>Next.jsのコンポーネントにスタイルを適用する例</a>
+              Next.jsのコンポーネントにスタイルを適用する例
             </Link>
             <Link href="/theme-sample">
-              <a>テーマを使う例</a>
+              テーマを使う例
             </Link>
           </Links>
         </div>
